@@ -10,4 +10,5 @@ the Head of the master branch just points to the Head of the Working branch inst
    Now production branch has the code which is deployed on the prod server, QA has the working copy of the software being tested and Development branch has the latest features added to it,
    from which the developers fork their branches for development.
 
-4. Usually it depends on the architecture. But it is mostly one that is the most common.
+4. Usually it depends on the architecture. But it is mostly one that is the most common. If it is a large component then it can be one repo, if its is microservices architechture then it has to be multiple repo.
+   Also if there are use of multiple languages then we need multiple repo.
