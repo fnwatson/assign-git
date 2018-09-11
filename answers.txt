@@ -1,0 +1,13 @@
+1. Git ignore file defines the file types that would be ignored while pushing from the local to the remote repository.
+   For Java , these include .Class, .jar,.war,.ear,.log files etc.
+   
+2. Fast forward in Git means that if the Master doesn't have commits (has not diverged) after  working branch was created then 
+the Head of the master branch just points to the Head of the Working branch instead of creating a new commit.
+
+3. Different branches lets us have the flexibility of adding features and concurrently working on them without any dependencies on other developers.
+   We can also go back on some changes when we want to because all branches have a working copy of the software and build features onto it separately.
+   Branches are also made to define the Release on the environment level (Development Branch, QA Branch, Production Branch), which stores working copies .
+   Now production branch has the code which is deployed on the prod server, QA has the working copy of the software being tested and Development branch has the latest features added to it,
+   from which the developers fork their branches for development.
+
+4. Usually it depends on the architecture. But it is mostly one that is the most common.
